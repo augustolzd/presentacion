@@ -1,0 +1,132 @@
+.marco{
+	background: #fff; 
+	border-radius: 12px;
+	border-width: 1px 0 0 0;
+	border: solid rgba(0,0,0, .1);
+	box-shadow: 0 5px 5px rgba(0,0,0, 0.5);
+	overflow: hidden;
+	padding: 40px;
+	height:600px; 
+	margin: 0 auto;
+	width: 960px;
+}
+#anterior{
+	top:500px;
+	float: left;
+	content="";
+	border-top: 350px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 350px solid transparent;
+}
+#anterior:hover{
+	border-right: 50px solid grey;
+}
+#siguiente{
+	top:500px;
+	float: right;
+	content="";
+	border-top: 350px solid transparent;
+	border-left: 50px solid transparent;
+	border-bottom: 350px solid transparent;
+}
+#siguiente:hover{
+	border-left: 50px solid grey;
+}
+
+h1 b{
+	font-family: "MPS", sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	}
+h1{
+	color: #1A4D11;
+	font-family: "MPR", sans-serif;
+	font-size: 24px;
+	margin: 5px 10px;
+	position: relative;
+	}
+h1 span{
+	background: linear-gradient(top, rgba(255,255,255, .6), rgba(255,255,255, 0));
+	bottom: 0; left: 0; 
+	position: absolute; 
+	top: 0; right: 0;
+	width:960px;
+    background: -ms-linear-gradient(top, rgba(255,255,255, .6), rgba(255,255,255, 0));
+    background: -o-linear-gradient(top, rgba(255,255,255, .6), rgba(255,255,255, 0));
+    background: -webkit-linear-gradient(top, rgba(255,255,255, .6), rgba(255,255,255, 0));
+	}
+footer{
+	padding-left: 300px;
+}
+#logo{
+	position: relative;
+	left:45px;
+}
+#contenido{
+	text-align: justify;
+}
+#contenido h1{
+	font: 100px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+}
+#contenido h2{
+	font: 32px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	text-align: left;
+}
+#contenido li{
+	font: 75px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+}
+#contenido li:hover{
+	color: #fff;
+	text-shadow: 0px 0px 20px green;
+}
+#contenido p{
+	font: 75px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+	position: relative;
+}
+#contenido img{
+	position: relative;
+	left:25%;
+}
+#html4{
+	width: 100px;
+	background-color: red;
+	color: white;
+	font-size: 30px;
+	float: left;
+	padding: 5px 5px 5px 5px;
+	margin-right: 5px;
+}
+#html5{
+	width: 100px;
+	background-color: green;
+	color: white;
+	font-size: 30px;
+	float: left;
+	padding: 5px 5px 5px 5px;
+}
+#logo{
+	position: relative;
+	float: left;
+	margin: 50px 50px 0px 0px;
+}
+#texto{
+	float: left;
+	font-size:20px;
+	width:390px;
+	text-align: justify;
+	margin: 50px 50px 0px 100px;
+}
+.boton{
+	float: left;
+	margin-right: 5px;
+}
+#botones{
+	position: absolute;
+	top:570px;
+	left: 29%;
+	padding: 20px;
+	background-color: grey;
+	width:565px;
+}
